@@ -1,0 +1,347 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Steradian Trial', sans-serif;
+}
+@import url("https://fonts.cdnfonts.com/css/steradian-trial");
+* {
+  font-family: "Steradian TRIAL", sans-serif;
+  overflow-x: hidden;
+}
+.parent{
+    height: 2000px;
+    width: 100%;
+}
+.whitea{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 55px;
+    left: 120px;
+}
+.middle{
+    position: absolute;
+    top: 45px;
+    left: 563px;
+    padding: 10px;
+    gap: 28px;
+    display: flex;
+}
+.mid1{
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.end{
+    position: absolute;
+    top: 45px;
+    left: 1050px;
+}
+.btn1{
+    height: 40px;
+    width: 120px;
+    border: 1px solid #2559D2;
+    color: #2559D2;
+    background-color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.btn2{
+    height: 40px;
+    width: 120px;
+    border: 1px solid #2559D2;
+    background-color: #2559D2;
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+    
+}
+.main{
+    height: 35%;
+    width: 100%;
+    position: relative;
+}
+.right{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    left: 110px;
+    top: 50px;
+}
+.txt1{
+    font-size: 50px;
+    font-weight: bolder;
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.div{
+    display: flex;
+}
+.txt4{
+    font-size: 50px;
+    font-weight: bolder;
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.txt2{
+    font-size: 50px;
+    color: #2559D2;
+    margin: 0px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.txt3{
+    font-size: 50px;
+    color: #2559D2;
+    font-weight: bolder;
+    margin: 0px;
+}
+.ptag{
+    margin: 0px;
+    color: #838383;
+    font-size: 20;
+}
+.ptag1{
+    margin: 0px;
+    margin-top: 40px;
+    color: #838383;
+    font-size: 20;
+}
+.btn{
+    margin-top: 60px;
+    width: 300px;
+    height: 60px;
+    background-color: #2559D2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+    cursor: pointer;
+    font-size: larger;
+}
+.left{
+    display: flex;
+    justify-content:end
+}
+.djecak{
+height: 680px;
+width: auto;
+}
+
+
+.second{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.nav2{
+    height: 250px;
+    width: 100%;
+}
+.right2{
+    height: 200px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+.uputstvo{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.uputstvo1{
+    color: black;
+    opacity: 60%;
+    font-size: 15px;
+    margin: 0px;
+}
+.btn5{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    background-color: #2559D2;
+    color: white;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.left2{
+    width: 90%;
+    display: flex;
+justify-content: flex-end;
+position:relative
+}
+.main2{
+    height: 68vh;
+    width: 100%;
+display: flex;
+justify-content: space-around;
+}
+.photo{
+    height: 520px;
+    width: 385px;
+    background-image: url(../slike/Frame\ 16.png);
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+.dva{
+    background-image: url(../slike/Frame\ 17.png);
+}
+.tri{
+    background-image: url(../slike/Frame\ 18.png);
+}
+
+.third{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lead{
+    height: 800px ;
+    width: 75%;
+    background-color: #2559D2;
+    border-radius: 3%;
+    display:flex;
+    flex-direction: column;
+    
+}
+.thirdtext{
+    display: flex;
+    flex-direction: column;
+}
+.tptag{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: center;
+    margin-top: 50px;
+}
+.ttext{
+    color:white;
+    opacity: 60%;
+    font-size: 15px;
+    align-self: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.button5{
+    height: 40px;
+    width: 190px;
+    background-color: white;
+    align-self: center;
+    margin-top: 40px;
+display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+color: #2559D2;
+font-weight: 600;
+justify-self: center;
+border: none;
+border-radius: 10px;
+font-size: medium;
+}
+.board{
+    height: 50px;
+    width: 550px;
+    align-self: center;
+    margin-top: 20px;
+    display: flex;
+}
+.board1{
+    height: 50px;
+    width: 550px;
+    background-color: white;
+    align-self: center;
+    margin-top: 80px;
+}
+.num{
+    font-size:medium;
+    font-weight: 800;
+margin-left: 5px;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.nameb{
+    font-weight: 500;
+    margin-left: 40px;
+}
+.board {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    height: 500px;
+    border-radius: 8px;
+  }
+  
+  .leaderboard-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    margin-bottom: 25px;          
+    border: 1px solid #ddd;       
+    border-radius: 6px;  
+    background-color: white;         
+  }
+  
+
+  .leaderboard-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent; 
+  }
+
+  .leaderboard-item .rank {
+    width: 30px;
+    font-weight: bold;
+  }
+
+  .leaderboard-item .name {
+    font-weight: 500;
+    flex: 1;
+  }
+
+  .leaderboard-item .score {
+ text-align: right;
+  }
+  .current-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #3399ff;
+    border-radius: 6px;
+    background-color: white; 
+  }
